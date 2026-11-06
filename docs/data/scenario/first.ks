@@ -1,45 +1,87 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ダイエット～誘惑との闘い～"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ダイエット～誘惑との闘い～」[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
+夜11時半。[l][r]
+8時間のバイトが終わり、ようやく家に帰ってきた。[l][r]
+かなり疲れている君はご飯を食べることにした。[l][r]
 (中略)[l][r]
+「ああ、早く何か食べたい。。。」[l][r]
+おもむろに冷蔵庫へと向かった君は、扉に１枚の張り紙を見つけた。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+[cm]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+「目指せ50キロ！痩せて彼女を作るんだ！」[l][r]
+
+[cm]
+
+そう、[l][r]
+君は最近外食のし過ぎで、体重が70キロまで太ってしまったのだ。[l][r]
+（中略）[l][r]
+一旦張り紙を無視して、冷蔵庫の扉を開けた。[l][r]
+そこには、先日に友達からもらった仙台のお土産が入っていた。[l][r]
+牛タン、仙台牛のステーキ、かきめし、、、[l][r]
+ただ、形から入る君は、昨日プロテインバーを買っていた。[l][r]
+さあどうする。[l][r]
+痩せて彼女を作るんだろ。[l][r]
+
+[link target=*tag_gyutan] →牛タンを食べる [endlink][r]
+[link target=*tag_sendaigyu] →仙台牛のステーキを食べる [endlink][r]
+[link target=*tag_kakimeshi] →かきめしを食べる [endlink][r]
+[link target=*tag_protein] →我慢してプロテインバーを食べる [endlink][r]
 [s]
 
-*tag_sleep
+*tag_gyutan
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+もうダイエットは諦めるしかないね。[l][r]
+残念。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_sendaigyu
+
+[cm]
+
+[bg storage=sleep.jpg time=500]
+
+もうダイエットは諦めるしかないね。[l][r]
+残念。[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_kakimeshi
+
+[cm]
+
+[bg storage=sleep.jpg time=500]
+
+もうダイエットは諦めるしかないね。[l][r]
+残念。[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_protein
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+よく我慢した。[l][r]
+きっと彼女ができるよ。[r]
 
 【 GOOD END 】[l][cm]
 
